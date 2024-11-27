@@ -29,7 +29,7 @@ Core idea: Utilizing the denoising U-Net for reference feature extraction and ta
 Trained with the TikTok dataset (350 videos), UBCFashion (500 videos), and a self-gathered dance video dataset (3,500 dance videos featuring about 200 humans).
 
 <div align="center">
-<img src="https://huggingface.co/Ljzycmd/SCD/resolve/main/assets/demo.gif">
+<img src="assets/demo.gif">
 </div>
 
 
