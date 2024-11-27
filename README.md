@@ -11,7 +11,7 @@
 > In this paper, we explore the generation of consistent human-centric visual content through a spatial conditioning strategy. We frame consistent reference-based controllable human image and video synthesis as a spatial inpainting task, where the desired content is spatially inpainted under the conditioning of a reference human image. Additionally, we propose a causal spatial conditioning strategy that constrains the interaction between reference and target features causally, thereby preserving the appearance information of the reference images for enhanced consistency. By leveraging the inherent capabilities of the denoising network for appearance detail extraction and conditioned generation, our approach is both straightforward and effective in maintaining fine-grained appearance details and the identity of the reference human image.
 
 <div align="center">
-<img src="https://huggingface.co/Ljzycmd/SCD/resolve/main/assets/demo.gif">
+<img src="assets/teaser.png">
 </div>
 
 
@@ -29,7 +29,7 @@ Core idea: Utilizing the denoising U-Net for reference feature extraction and ta
 Trained with the TikTok dataset (350 videos), UBCFashion (500 videos), and a self-gathered dance video dataset (3,500 dance videos featuring about 200 humans).
 
 <div align="center">
-<img src="assets/demo.gif">
+<img src="https://huggingface.co/Ljzycmd/SCD/resolve/main/assets/demo.gif">
 </div>
 
 
