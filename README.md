@@ -54,6 +54,15 @@ Correspondingly, a regional loss is applied to the denoising U-Net's prediction 
 </div>
 
 
+## Results with Diffusion Transformer-based Model
+
+Our proposed method can also be integrated into diffusion Transformer-based models, such as SD3 and FLUX, to enhance synthesis quality. In this approach, the reference image is utilized as additional tokens during training, with the loss computation restricted to the noisy tokens. To demonstrate the effectiveness of our method, we present results of FLUX trained on the VTON-HD dataset using SCD framework:
+
+<div align="center">
+<i>Tryon results of different base models</i>
+<img src="assets/sd_vs_flux.jpg">
+</div>
+
 
 ## Contact
 
